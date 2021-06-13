@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <script src="./calc.js" defer></script>
+        
+        <style>
+           .screen{
+               width: 98%;
+               height: 50px;
+               font-size: 40px;
+               background-color: rgb(236, 233, 226);
+               margin: 0;
+               padding: 0;
+           } 
+           .screen .out{
+               position: absolute;
+               right: 20px;
+               
+
+               
+           }
+           
+        
+           .bt:hover{
+               background-color: darkorange;
+           }
+           .bt{
+               width: 24%;
+              height: 50px;
+              font-size: 30px;
+           }
+           .ac{
+               width: 38.9%;
+               background-color: darkseagreen;
+           }
+           .de{
+               width: 33.7%;
+               background-color: darkseagreen;
+           }
+           .plus{
+               width: 24%;
+           }
+        </style>
+    </head>
+<body>
+
+       <div class="calc">
+          <div class="screen">
+              <span class="out">0</span>
+          </div>
+          <div><br></div>
+          <div class="key">
+              
+                <button type="button" class="bt ac">AC</button>
+                <button type="button" class="bt de">DEL</button>
+                <button type="button" class="bt plus">+</button>
+              
+                <button type="button" class="bt seven">7</button>
+                <button type="button" class="bt eight">8</button>
+                <button type="button" class="bt night">9</button> 
+                <button type="button" class="bt sub">-</button>                 
+              
+                <button type="button" class="bt four">4</button>
+                <button type="button" class="bt five">5</button>
+                <button type="button" class="bt six">6</button> 
+                <button type="button" class="bt mul">*</button>                 
+              
+                <button type="button" class="bt one">1</button>
+                <button type="button" class="bt two">2</button>
+                <button type="button" class="bt three">3</button> 
+                <button type="button" class="bt div">/</button>                 
+              
+                <button type="button" class="bt 0">0</button>
+                <button type="button" class="bt ">%</button>
+                <button type="button" class="bt cham">.</button> 
+                <button type="button" class="bt ">=</button>                 
+              </div>
+          </div>
+
+       </div>
+</body>
+
+</html>
