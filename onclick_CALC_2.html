@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <link rel="stylesheet" href="onclickCALC.css">
+        <script src="./onclickCALC.js" defer></script>
+
+    </head>
+    <body>
+        <table class="calc">
+            <div class="display">
+                <span class="screen">0</span>
+            </div >
+            
+            <div class="button">
+                <div>
+                    <button type="button" class="bt" onclick="Add('+')">+</button>
+                    <button type="button" class="bt" onclick="Add('7')">7</button>
+                    <button type="button" class="bt" onclick="Add('4')">4</button>
+                    <button type="button" class="bt" onclick="Add('1')">1</button>
+                    <button type="button" class="bt" onclick="Add('.')">.</button>
+
+                </div>
+                <div>
+                    <button type="button" class="bt" onclick="Add('-')">-</button>
+                    <button type="button" class="bt" onclick="Add('8')">8</button>
+                    <button type="button" class="bt" onclick="Add('5')">5</button>
+                    <button type="button" class="bt" onclick="Add('2')">2</button>
+                    <button type="button" class="bt" onclick="Add('0')">0</button>
+                </div>
+                <div>
+                    <button type="button" class="bt" onclick="Add('*')">*</button>
+                    <button type="button" class="bt" onclick="Add('9')">9</button>
+                    <button type="button" class="bt" onclick="Add('6')">6</button>
+                    <button type="button" class="bt" onclick="Add('3')">3</button>
+                    <button type="button" class="btpop" onclick="Add('c')">C</button>
+
+                </div>         
+                <div>
+                    <button type="button" class="bt" onclick="Add('/')">/</button>
+                    <button type="button" class="bt" onclick="Add('%')">%</button>  
+                    <button type="button" class="bteval" onclick="Add('=')">=</button> 
+                </div>
+            </div>        
+        </table>
+    </body>
+</html>
+
